@@ -1,0 +1,16 @@
+{
+  "name": "stat-card",
+  "version": "1.0.0",
+  "description": "PulseLive Stat Card",
+  "main": "app/index.html",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o app/css"
+  },
+  "author": "Farwa Javed",
+  "license": "ISC"
+}

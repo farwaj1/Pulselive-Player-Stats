@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>Player Stats Card - Pulselive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/main.css?" />
+      <link rel="icon" type="image/png" href="assets/logo/pulselive-logo.png" />
+  </head>
+
+  <body>
+    <label for="player-select"></label>
+    <select class="choose-player-dropdwn" id="player-select">
+      <option>&nbsp;Select a player...</option>
+    </select>
+    <div class="player-img-container">
+      <img src="" id="main-player-img" />
+    </div>
+    <div class="player-stats-box">
+    <div class="Table">
+        <h3 id="playerName"></h3>
+        <p id="player-position"></p>
+      <div class="Row">
+        <div class="Cell">
+          Appearances <span id="apps"></span>
+        </div>
+        <div class="Cell">
+          Goals <span id="goals"></span>
+        </div>
+        <div class="Cell">
+          Assists <span id="assists"></span>
+        </div>
+        <div class="Cell">
+          Goals per match <span id="gpm"></span>
+        </div>
+        <div class="Cell">
+          Passes per minute <span id="ppm"></span>
+        </div>
+    </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
